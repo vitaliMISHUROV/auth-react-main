@@ -1,0 +1,44 @@
+/* HomePage.css */
+.container{
+    position: relative;
+}
+input{
+    margin-top: 15px;
+    width: 600px;
+    height: 50px;
+}
+.login-page {
+    background-color: #f8fdfd;
+
+    margin-top: 5px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100vh; /* 100% висоти екрану */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn1{
+    width: 600px;
+    height: 50px;
+}
+
+.rp{
+    text-align: center;
+    margin-left: 220px;
+    padding: 5px;
+    border-bottom: 2px solid green;
+}
+
+
+
+
+
+
+
+

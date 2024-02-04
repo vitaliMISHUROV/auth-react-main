@@ -1,0 +1,41 @@
+.article {
+    width: 600px;
+    margin: 0 auto; /* Центрує контент на екрані */
+    padding: 20px;
+    box-sizing: border-box; /* Забезпечує правильний розрахунок ширини та висоти з врахуванням границі і внутрішніх відступів */
+}
+
+.ulPopul {
+    text-align: start;
+    color: green;
+    margin-bottom: 120px;
+}
+
+.divbtn {
+    position: relative;
+    display: block;
+}
+
+.btnPopul {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    transition: all 0.3s ease; /* Плавний перехід для всіх стилів протягом 0.3 секунди з ефектом 'ease' */
+}
+
+h1 {
+    width: 200px;
+    height: 50px;
+    margin-left: 300px;
+    background-color: #0f9d80;
+    font-size: 23px;
+    color: white;
+    border: 2px solid #3555bb;
+    transition: all 0.3s ease;
+}
+
+.imgPopul {
+    width: 150px;
+    height: 80px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}

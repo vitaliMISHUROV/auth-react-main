@@ -1,0 +1,64 @@
+
+.apple-login-btn {
+    font-size: 24px;
+    color: white;
+
+    background-image: url("../img/png-apple-icon.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+
+    width: 400px;
+    height: 50px;
+    background-color: #868d99;
+    border-radius: 20px 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.google-button {
+    color: white;
+    font-size: 24px;
+
+
+    background-image: url("../img/png-google-iicon.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+
+    width: 400px;
+    height: 50px;
+    border-radius: 20px 20px;
+    background-color: #868d99;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+}
+
+.rh1{
+    color:green;
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 20px 20px;
+
+}
+
+.rp{
+    width: 250px;
+    height: 50px;
+
+    color: rgb(22, 133, 106);
+    text-align: center;
+    justify-content: center;
+    margin-top: 5px;
+    padding: 5px 5px;
+
+
+}
+
+
+.login-auth {
+width: 500px;
+    height: 100px;
+    text-align: center;
+}

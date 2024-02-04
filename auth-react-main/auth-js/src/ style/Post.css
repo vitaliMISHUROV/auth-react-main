@@ -1,0 +1,9 @@
+
+h2,h1,button, ul{
+    text-align: center;
+    justify-content: flex-start;
+}
+div{
+    text-align: center;
+    justify-content: center;
+}
