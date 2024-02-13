@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-
+import  "../ style/PlantsPage.css"
 const PlantsList = ({ plants, onDeletePlant, editingPlantId, onEditSave, onEditCancel, categories }) => {
     const [editingPlantDetails, setEditingPlantDetails] = useState({
         name: '',
@@ -65,7 +65,7 @@ const PlantsList = ({ plants, onDeletePlant, editingPlantId, onEditSave, onEditC
                         ) : (
                             <>
                                 {plant.name} - {plant.description}
-                                <button onClick={() => handleDeleteClick(plant._id)}>Delete</button>
+                                <button className="btnDelete"  onClick={() => handleDeleteClick(plant._id)}>Delete</button>
                             </>
                         )}
                     </li>

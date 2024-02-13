@@ -5,6 +5,7 @@ import PlantsList from '../components/PlantsList';
 import CreatePlant from '../components/ CreatePlant';
 import "../ style/PlantsPage.css";
 
+import { SignOutButton, SignInButton, SignedIn, SignedOut } from "@clerk/clerk-react";
 
 const Plant = () => {
     const [plants, setPlants] = useState([]);
@@ -75,21 +76,35 @@ const Plant = () => {
     };
 
     return (
-        <div className="plants-page">
-            <div className="plants-list-container">
-                <PlantsList
-                    plants={plants}
-                    onEditPlant={editPlantClick}
-                    onEditSave={editPlant}
-                    onEditCancel={editPlantClose}
-                    onDeletePlant={deletePlant}
-                    categories={categories}
-                />
+        <>
+            <div>
+                <SignedOut>
+                    <SignInButton />
+                    <p>This content is public. Only signed-out users can see the SignInButton above this text.</p>
+                </SignedOut>
+                <SignedIn>
+                    <SignOutButton  />
+                    <p>content is. Only signed-in users can see the SignOutButton above this text.</p>
+
+                    <div className="plants-page">
+                        <div className="plants-list-container">
+                            <PlantsList
+                                plants={plants}
+                                onEditPlant={editPlantClick}
+                                onEditSave={editPlant}
+                                onEditCancel={editPlantClose}
+                                onDeletePlant={deletePlant}
+                                categories={categories}
+                            />
+                        </div>
+                        <div className="create-plant-container">
+                            <CreatePlant onPlantCreated={createPlant} categories={categories} setCategories={setCategories} />
+                        </div>
+
+                    </div>
+                </SignedIn>
             </div>
-            <div className="create-plant-container">
-                <CreatePlant onPlantCreated={createPlant} categories={categories} />
-            </div>
-        </div>
+        </>
     );
 };
 

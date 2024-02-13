@@ -1,7 +1,11 @@
 /* HomePage.css */
-
+.search-button{
+    width: 400px;
+    height: 50px;
+    padding: 5px;
+}
 .home-page {
-    background-image: url('../img/1.jpg');
+
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -10,7 +14,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #2c0f0f;
 }
 
 .circle-container {
@@ -41,7 +45,7 @@
 }
 
 .search-button {
-    background-color: #1c4433;
+    background-color: #45987e;
     color: white;
     padding: 10px;
     cursor: pointer;
@@ -58,7 +62,13 @@
         width: 100%; /* Розтягуємо ввод на всю ширину на малих екранах */
     }
 }
+img{
+    width: 70px;
+    height: 70px;
+    border: 2px  solid #5a957e;
+    border-radius: 35px 35px;
 
+}
 
 /* Додайте інші стилі за необхідністю */
 input{
@@ -73,7 +83,4 @@ button {
     width: 350px;
     height: 50px;
 
-}
-.h1Home{
-    border: 5px solid #720b0b;
 }

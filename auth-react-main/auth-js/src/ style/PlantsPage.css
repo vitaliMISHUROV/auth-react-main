@@ -38,10 +38,15 @@ body {
     border: solid 2px #9ec259;
     font-size: 24px;
 }
-
+.btnDelete{
+    width: auto;
+    height: 50px;
+    background-color: #0f9d80;
+}
 button {
-    background-color: #9ec259;
-    width: 100%; /* Allow the button to take full width */
+    background-color: rgba(85, 11, 108, 0.13);
+    width: 100px; /* Allow the button to take full width */
+    border-radius: 25px 25px;
     height: 40px;
     padding: 5px;
     margin-top: 10px;
@@ -65,4 +70,14 @@ h2 {
     button {
         width: 48%;
     }
+}
+input{
+    width: auto;
+    height: 40px;
+    margin-top: 20px;
+}
+li{
+    color: #1e1867;
+    text-align: left;
+    margin-right: 200px;
 }

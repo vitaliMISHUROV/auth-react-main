@@ -24,7 +24,6 @@ const CreatePlant = ({ onPlantCreated, isEditing, categories, setCategories }) =
             console.error('Error fetching categories:', error);
         }
     };
-
     const handleInputChange = (e) => {
         const { name, value } = e.target;
 
@@ -110,7 +109,7 @@ const CreatePlant = ({ onPlantCreated, isEditing, categories, setCategories }) =
                     </label>
                 ))}
                 <button type="submit" disabled={isEditing}>
-                    Create Plant
+                    Create
                 </button>
             </form>
         </div>

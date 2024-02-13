@@ -13,20 +13,19 @@ body {
     padding: 20px;
 }
 
-h1 {
-    color: #333;
-}
 
-button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 15px;
-    font-size: 16px;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
-}
 
-button:hover {
-    background-color: #0056b3;
+
+table, th, td {
+    border: 1px solid;
+    margin-top: 20px;
+}
+.btnHomepage{
+    width: auto;
+    height: auto;
+    text-align: left;
+    margin-top: 20px;
+    margin-right: -200px;
+    border-radius: 20px 20px;
+
 }

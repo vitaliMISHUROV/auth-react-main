@@ -1,9 +1,26 @@
 
-h2,h1,button, ul{
+h2,h1,button{
     text-align: center;
     justify-content: flex-start;
 }
 div{
     text-align: center;
     justify-content: center;
+}
+h2{
+    background-color: white;
+    color: black;
+}
+p{
+    color: black;
+
+}
+ul{
+    color: white;
+}
+li{
+    color: white;
+}
+article{
+    color:  white;
 }
